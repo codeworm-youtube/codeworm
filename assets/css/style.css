@@ -1,10 +1,14 @@
 :root {
     --primary-color: #052a6e;
     --secondary-color: #b6cff1;
+    
+    --primary-font: 'Oswald', sans-serif;
+    --body-font: 'Noto Sans', sans-serif;
+    
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: var(--body-font);
     color: #fff;
 }
 
@@ -24,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -76,7 +80,6 @@ h6 {
     height: 90px;
     transition: all 0.5s;
     z-index: 997;
-    transition: all 0.5s;
     background: #fff;
     box-shadow: 0 4px 10px -3px rgba(191, 191, 191, 0.5);
 }
@@ -86,7 +89,6 @@ h6 {
     margin: 0;
     line-height: 1;
     font-weight: 400;
-    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -373,7 +375,7 @@ h6 {
 #hero h1 {
     margin: 0 0 30px 0;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 56px;
     color: #fff;
     text-transform: uppercase;
@@ -449,7 +451,6 @@ section {
     margin-bottom: 15px;
     padding-bottom: 0;
     color: var(--primary-color);
-    letter-spacing: 1px;
 }
 
 .section-title p {
@@ -477,9 +478,10 @@ section {
 }
 
 .about .content ul li {
-    padding-bottom: 10px;
     display: flex;
     align-items: flex-start;
+    color: #151515;
+    padding-bottom: 10px;
 }
 
 .about .content ul i {
