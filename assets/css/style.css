@@ -843,7 +843,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #7cc576;
+    background: var(--primary-color);
     color: #fff;
 }
 
@@ -861,7 +861,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
     content: "";
-    background: rgba(21, 21, 21, 0.6);
+    background: rgba(5,42,110,0.7);
     position: absolute;
     left: 30px;
     right: 30px;
@@ -938,13 +938,13 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a {
     color: #fff;
     margin: 0 2px;
-    font-size: 28px;
+    font-size: 40px;
     display: inline-block;
     transition: 0.3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-    color: #7cc576;
+    color: var(--secondary-color);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1426,11 +1426,11 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    color: #7cc576;
+    color: var(--primary-color);
     float: left;
     width: 44px;
     height: 44px;
-    background: #eaf6e9;
+    background: var(--secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1461,7 +1461,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: #7cc576;
+    background: var(--primary-color);
     color: #fff;
 }
 
@@ -1534,7 +1534,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #7cc576;
+    background: var(--primary-color);
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1543,7 +1543,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-    background: #61b959;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
 }
 
 @-webkit-keyframes animate-loading {
